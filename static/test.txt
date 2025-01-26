@@ -1,0 +1,3 @@
+in this folder we can store any other file or any thing we can write and as it is it will serve the content
+in this we can also display images and videos
+/static/test.txt to display this file

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='port.css')}}">
+   
+</head>
+<body>
+    <div class="background">
+        <img src="{{url_for('static',filename='back.jpg')}} " class="back" alt="back">
+    </div>
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <h2><b>My portfolio</b></h2>
+        </div>
+        <div class="elements">
+            <div> <a href="{{url_for('projects')}}"><button class="info"><b>Projects</b></button></div></a>
+            <div><a href="{{url_for('services')}}"><button class="info"><b>Services</b></button></div></a>
+            <div><a href="{{url_for('about')}}"><button class="info"><b>About</b></button></div></a>
+            
+        </div>
+    </div>
+    
+ <div class="display">
+    <div class="right">
+        <h1>Hi, <br>I,m <span>Varun sai</span> <br>
+            Cyber Security
+        </h1>
+             
+        <div class="contat">
+          <a href ="{{url_for('contact')}}"><button class="btn">Contact</button></a>
+        </div>
+        <div class="insta">
+            <a href="https://www.instagram.com/"><img src="{{url_for('static',filename='instalogo.jpg')}}" class="instalogo" alt="logo"></a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+        </div>
+    </div>
+    <div class="photo">
+    <img src="{{url_for('static',filename='passport.jpg')}}" class="myphoto" alt="photo">
+    </div>
+</div>
+
+    </div>
+
+   
+</body>
+</html>
